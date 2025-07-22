@@ -26,13 +26,10 @@ Built for:
 📁 **Project Structure**
 ```
 Mercury/
-├── templates/
-│ └── index.html # Frontend form and result display (Jinja2)
-├── static/
-│ └── style.css # Custom CSS styles
-├── mercury.py # Main Flask backend and optimizer logic
-├── requirements.txt # Required Python libraries
-└── README.md # Project documentation
+├── Index.html # All-in-one HTML, CSS, and JavaScript UI
+├── RPTotalTime.py # Flask backend and optimization logic
+├── README.md # This file
+└── Week 4 - Updated Design Plan.docx # Early design documentation
 ```
 
 ⚙️ **Setup Instructions**
@@ -40,22 +37,20 @@ Mercury/
    ```bash
    git clone https://github.com/apaczkowski/COSC-498.git
    cd COSC-498
-
-Set up your environment
-
-python -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-Add your Google Maps API key
-
-Create a .env file or inject into your script:
-export GOOGLE_MAPS_API_KEY=your_key_here
-
-Run the app
-python mercury.py
-
-Visit
-http://127.0.0.1:5000/
+2. **Set up your environment**
+   python -m venv venv
+   source venv/bin/activate     # On Windows: venv\Scripts\activate
+   pip install flask pulp requests
+3. **Add your Google Maps API key**
+   In RPTotalTime.py, replace YOUR_API_KEY_HERE with your actual key.
+   Example:
+    ```
+    API_KEY = "your-real-api-key"
+    ```
+4. **Run the app**
+   python mercury.py
+5. **Open in your browser**
+   http://127.0.0.1:5000/
 
 📌 Planned Enhancements
 ** PDF/CSV export of travel report
@@ -74,3 +69,5 @@ http://127.0.0.1:5000/
 🧑‍💻 Author
 Adam Paczkowski
 📍 St. Louis, MO
+https://github.com/apaczkowski
+https://www.linkedin.com/in/adam-paczkowski-b841602b7/
