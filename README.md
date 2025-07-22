@@ -70,8 +70,10 @@ Mercury/
 ** Embedding and styling Google Maps with live data
 ** Structuring a full-stack Python project for clarity and maintainability
 ```
+```
 🧑‍💻 Author
 Adam Paczkowski
 📍 St. Louis, MO
 https://github.com/apaczkowski
 https://www.linkedin.com/in/adam-paczkowski-b841602b7/
+```
