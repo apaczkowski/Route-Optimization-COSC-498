@@ -24,6 +24,7 @@ Built for:
 **Tools**: Git, PDF export libraries (TBD)
 
 📁 **Project Structure**
+```
 Mercury/
 ├── templates/
 │ └── index.html # Frontend form and result display (Jinja2)
@@ -32,6 +33,7 @@ Mercury/
 ├── mercury.py # Main Flask backend and optimizer logic
 ├── requirements.txt # Required Python libraries
 └── README.md # Project documentation
+```
 
 ⚙️ **Setup Instructions**
 1. **Clone the repository**
